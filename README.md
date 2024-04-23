@@ -1,27 +1,26 @@
-# React + TypeScript + Vite
+  ## Link do Deploy: https://web-carros2024.vercel.app/login 
+## :page_facing_up: Explicação
+Este repositório contém os arquivos do meu portfólio pessoal, onde compartilho informações sobre mim, meus projetos e minhas habilidades. Este portfólio foi criado com o objetivo de mostrar meu trabalho, experiência e habilidades para potenciais empregadores, clientes ou colaboradores. O projeto foi pensado 100% responsivo para que seja utilizado de qualquer dispositivo em qualquer lugar.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📁 Seções da página
 
-Currently, two official plugins are available:
+- Listagem de Carros: Os usuários podem visualizar uma lista de carros disponíveis para venda, incluindo detalhes como marca, modelo, ano, preço e disponibilidade.
+  
+- Pesquisa Avançada: Os clientes podem usar filtros avançados para encontrar carros com base em critérios específicos, como marca, modelo, preço e quilometragem.
+  
+- Detalhes do Carro: Os usuários podem ver informações detalhadas sobre cada carro, incluindo imagens, características técnicas e histórico de manutenção.
+  
+- Cadastro de Clientes: O sistema permite o cadastro de clientes, incluindo informações como nome, endereço, telefone e e-mail, facilitando o acompanhamento de leads e o contato com potenciais compradores.
+  
+- Agendamento de Test Drive: Os clientes podem agendar test drives diretamente pelo sistema, escolhendo a data e hora convenientes para eles.
+  
+- Gestão de Vendas: Os vendedores podem acompanhar o progresso das vendas, incluindo o status de cada lead, negociações em andamento e vendas concluídas.
+  
+Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Frontend: HTML, CSS, TypeScript, JavaScript, React.js, Tailwind CSS
+Implantação: Vercel <br>
+Banco de Dados: Firebase
+## 🤝 Colaboradores
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<a href="#top">Volte para o topo</a>
